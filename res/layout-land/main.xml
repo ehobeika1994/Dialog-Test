@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:id="@+id/mainView"
+    >
+    <TextView  
+		android:id="@+id/infoView"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:text="Landscape View"
+    	android:layout_gravity="center"
+    	android:gravity="center"
+    />
+	<Button  
+		android:id="@+id/tbdialogButton"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center"
+    	android:text="Two Button Dialog"
+    />
+    <Button  
+		android:id="@+id/thbdialogButton"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center"
+    	android:text="Three Button Dialog"
+    />
+    <Button  
+		android:id="@+id/listdialogButton"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center"
+    	android:text="List Dialog"
+    />
+    <Button  
+		android:id="@+id/rbdialogButton"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center"
+    	android:text="Radio Button Dialog"
+    />
+    <Button  
+		android:id="@+id/customdialogButton"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center"
+    	android:text="Custom Dialog"
+    />
+    
+</LinearLayout>

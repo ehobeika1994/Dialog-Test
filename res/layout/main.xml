@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/mainView"
+    >
+	<Button  
+		android:id="@+id/tbdialogButton"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="Two Button Dialog"
+    />
+    <Button  
+		android:id="@+id/thbdialogButton"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="Three Button Dialog"
+    />
+    <Button  
+		android:id="@+id/listdialogButton"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="List Dialog"
+    />
+    <Button  
+		android:id="@+id/rbdialogButton"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="Radio Button Dialog"
+    />
+    <Button  
+		android:id="@+id/customdialogButton"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="Custom Dialog"
+    />
+    <Button  
+		android:id="@+id/customdialogScrollButton"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:text="Custom Dialog with Scroll"
+    />
+    
+</LinearLayout>
